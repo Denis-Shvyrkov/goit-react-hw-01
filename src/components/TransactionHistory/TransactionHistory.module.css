@@ -1,0 +1,24 @@
+table {
+  width: 80%;
+  border: 1px solid #212121;
+  border-spacing: 0;
+  text-align: center;
+}
+
+.headRow {
+  color: #fff;
+  background-color: #31363f;
+}
+
+td,
+th {
+  border: 1px solid #212121;
+}
+
+.row:nth-child(odd) {
+  background-color: #a9a9a9;
+}
+
+.row:nth-child(even) {
+  background-color: #fff;
+}

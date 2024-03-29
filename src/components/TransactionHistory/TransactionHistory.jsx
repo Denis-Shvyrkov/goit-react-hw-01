@@ -1,8 +1,10 @@
+import css from './TransactionHistory.module.css';
+
 const TaransactionHistory = ({ items }) => {
   return (
     <table>
       <thead>
-        <tr>
+        <tr className={css.headRow}>
           <th>Type</th>
           <th>Amount</th>
           <th>Currency</th>
@@ -11,7 +13,7 @@ const TaransactionHistory = ({ items }) => {
       <tbody>
         {items.map(({ id, type, amount, currency }) => {
           return (
-            <tr key={id}>
+            <tr className={css.row} key={id}>
               <td>{type}</td>
               <td>{amount}</td>
               <td>{currency}</td>

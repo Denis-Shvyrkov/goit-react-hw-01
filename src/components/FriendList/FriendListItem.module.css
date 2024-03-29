@@ -1,0 +1,33 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 5px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.card img {
+  width: 40%;
+}
+
+.userName {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+}
+.status {
+  font-size: 16px;
+  margin: 0;
+}
+
+.online {
+  composes: status;
+  color: green;
+}
+.offline {
+  composes: status;
+  color: red;
+}
