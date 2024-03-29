@@ -1,6 +1,6 @@
 import css from './TransactionHistory.module.css';
 
-const TaransactionHistory = ({ items }) => {
+const TransactionHistory = ({ items }) => {
   return (
     <table>
       <thead>
@@ -25,4 +25,4 @@ const TaransactionHistory = ({ items }) => {
   );
 };
 
-export default TaransactionHistory;
+export default TransactionHistory;
